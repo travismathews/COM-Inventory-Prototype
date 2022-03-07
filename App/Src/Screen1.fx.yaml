@@ -5,5 +5,7 @@ Screen1 As screen:
         Layout: =Layout.Vertical
         TemplateSize: =570
         Width: =427
+        X: =105
+        Y: =10
         ZIndex: =1
 
