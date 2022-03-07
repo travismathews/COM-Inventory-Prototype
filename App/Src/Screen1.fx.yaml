@@ -1,0 +1,9 @@
+Screen1 As screen:
+
+    Gallery1 As gallery.galleryVertical:
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        TemplateSize: =570
+        Width: =427
+        ZIndex: =1
+
