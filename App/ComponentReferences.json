@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "HasLibraryLogicalName": false,
+    "InstanceCount": 0,
+    "LibraryId": "dd394a01-21e1-40a4-adcd-449ed1def5f4",
+    "LibraryLogicalName": "",
+    "LibraryVersion": null,
+    "OriginalComponentDefinitionTemplateId": "dfa86e12e6ea4940bb4d615b66b74366",
+    "RefusedSourceLastTimeSaved": "0001-01-01T00:00:00",
+    "SourceLastTimeSaved": "2022-03-08T22:03:27.757+00:00"
+  }
+]

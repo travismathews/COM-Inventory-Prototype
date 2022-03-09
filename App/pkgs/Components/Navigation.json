@@ -1,0 +1,85 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": true,
+  "ComponentManifest": {
+    "AllowAccessToGlobals": false,
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "Navigation",
+    "TemplateGuid": "d147cebd21044b1c9bfdd7b32f46260b"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [
+    {
+      "Category": 0,
+      "DisplayName": "MenuItems",
+      "Hidden": false,
+      "Name": "MenuItems",
+      "PropertyDataTypeKey": "Table",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"MenuIcon\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"MenuId\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"MenuLabel\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"MenuScreenNavigate\",\"Kind\":\"_LimPrimitive\",\"EnumString\":\"\",\"Template\":{\"TemplateName\":\"screen\",\"IsMetaLoc\":false,\"Intangible\":false,\"IsDataLimited\":false,\"ExpandoType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Record\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"BackgroundImage\",\"Kind\":\"Image\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ContentLanguage\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Height\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ImagePosition\",\"Kind\":\"Enum\",\"EnumString\":\"%s[Center:\\\"center\\\", Fill:\\\"fill\\\", Fit:\\\"fit\\\", Stretch:\\\"stretch\\\", Tile:\\\"tile\\\"]\",\"Type\":[{\"Name\":\"Center\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fill\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fit\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Stretch\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Tile\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]},{\"Name\":\"LoadingSpinner\",\"Kind\":\"Enum\",\"EnumString\":\"%n[Controls:0, Data:1, None:2]\",\"Type\":[{\"Name\":\"Controls\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Data\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"None\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]},{\"Name\":\"LoadingSpinnerColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Name\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Orientation\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Printing\",\"Kind\":\"_MinPrimitive\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Size\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Width\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]}},\"Properties\":[{\"Name\":\"Fill\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Fill\"},{\"Name\":\"BackgroundImage\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Image\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Data\",\"PropertyDisplayName\":\"Background image\"},{\"Name\":\"ImagePosition\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Enum\",\"EnumString\":\"%s[Center:\\\"center\\\", Fill:\\\"fill\\\", Fit:\\\"fit\\\", Stretch:\\\"stretch\\\", Tile:\\\"tile\\\"]\",\"Type\":[{\"Name\":\"Center\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fill\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fit\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Stretch\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Tile\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Image position\"},{\"Name\":\"Height\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Height\"},{\"Name\":\"Width\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Width\"},{\"Name\":\"Size\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Size\"},{\"Name\":\"Orientation\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Orientation\"},{\"Name\":\"LoadingSpinner\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Enum\",\"EnumString\":\"%n[Controls:0, Data:1, None:2]\",\"Type\":[{\"Name\":\"Controls\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Data\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"None\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Loading spinner\"},{\"Name\":\"LoadingSpinnerColor\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Loading spinner color\"},{\"Name\":\"Name\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Name\"},{\"Name\":\"Printing\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"_MinPrimitive\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Data\",\"PropertyDisplayName\":\"Printing\"},{\"Name\":\"ContentLanguage\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Data\",\"PropertyDisplayName\":\"Content language\"}]}},{\"Name\":\"SubMenu\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"MenuIcon\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"MenuId\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"MenuLabel\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"MenuScreenNavigate\",\"Kind\":\"_LimPrimitive\",\"EnumString\":\"\",\"Template\":{\"TemplateName\":\"screen\",\"IsMetaLoc\":false,\"Intangible\":false,\"IsDataLimited\":false,\"ExpandoType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Record\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"BackgroundImage\",\"Kind\":\"Image\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ContentLanguage\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Height\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ImagePosition\",\"Kind\":\"Enum\",\"EnumString\":\"%s[Center:\\\"center\\\", Fill:\\\"fill\\\", Fit:\\\"fit\\\", Stretch:\\\"stretch\\\", Tile:\\\"tile\\\"]\",\"Type\":[{\"Name\":\"Center\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fill\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fit\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Stretch\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Tile\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]},{\"Name\":\"LoadingSpinner\",\"Kind\":\"Enum\",\"EnumString\":\"%n[Controls:0, Data:1, None:2]\",\"Type\":[{\"Name\":\"Controls\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Data\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"None\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]},{\"Name\":\"LoadingSpinnerColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Name\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Orientation\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Printing\",\"Kind\":\"_MinPrimitive\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Size\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Width\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]}},\"Properties\":[{\"Name\":\"Fill\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Fill\"},{\"Name\":\"BackgroundImage\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Image\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Data\",\"PropertyDisplayName\":\"Background image\"},{\"Name\":\"ImagePosition\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Enum\",\"EnumString\":\"%s[Center:\\\"center\\\", Fill:\\\"fill\\\", Fit:\\\"fit\\\", Stretch:\\\"stretch\\\", Tile:\\\"tile\\\"]\",\"Type\":[{\"Name\":\"Center\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fill\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fit\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Stretch\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Tile\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Image position\"},{\"Name\":\"Height\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Height\"},{\"Name\":\"Width\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Width\"},{\"Name\":\"Size\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Size\"},{\"Name\":\"Orientation\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Orientation\"},{\"Name\":\"LoadingSpinner\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Enum\",\"EnumString\":\"%n[Controls:0, Data:1, None:2]\",\"Type\":[{\"Name\":\"Controls\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Data\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"None\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Loading spinner\"},{\"Name\":\"LoadingSpinnerColor\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Loading spinner color\"},{\"Name\":\"Name\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Name\"},{\"Name\":\"Printing\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"_MinPrimitive\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Data\",\"PropertyDisplayName\":\"Printing\"},{\"Name\":\"ContentLanguage\",\"InvariantType\":{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Data\",\"PropertyDisplayName\":\"Content language\"}]}}]}]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Expand Menu",
+      "Hidden": false,
+      "IsResettable": true,
+      "Name": "ExpandMenu",
+      "PropertyDataTypeKey": "Boolean",
+      "Tooltip": "Should the menu be expanded or collapsed",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"_MinPrimitive\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "Menu Color",
+      "Hidden": false,
+      "Name": "MenuColor",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Custom Color for icons and text",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "MenuBackground",
+      "Hidden": false,
+      "Name": "MenuBackground",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "Background color for menu",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "MenuWidth",
+      "Hidden": true,
+      "Name": "MenuWidth",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "Width calculator for open and closed menu",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "SetMenuWidth",
+      "Hidden": false,
+      "Name": "SetMenuWidth",
+      "PropertyDataTypeKey": "Number",
+      "Tooltip": "Set menu open width",
+      "Type": "{\"Version\":\"1.321\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}}"
+    }
+  ],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": true,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "IsPcfControl": false,
+  "IsPremiumPcfControl": false,
+  "IsWidgetTemplate": false,
+  "LastModifiedTimestamp": "637824291813143799",
+  "Name": "d147cebd21044b1c9bfdd7b32f46260b",
+  "OverridableProperties": {},
+  "SourceLibraryId": "dd394a01-21e1-40a4-adcd-449ed1def5f4",
+  "SourceLibraryLogicalName": "",
+  "TemplateOriginalName": "dfa86e12e6ea4940bb4d615b66b74366",
+  "Version": "637822885992678589"
+}

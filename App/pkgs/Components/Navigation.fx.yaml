@@ -1,0 +1,174 @@
+Navigation As CanvasComponent:
+    ExpandMenu: =false
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    MenuBackground: =RGBA(243, 243, 243, 1)
+    MenuColor: =RGBA(0, 0, 0, 1)
+    MenuItems: |-
+        =Table(
+            {
+                MenuLabel: "Home",
+                MenuIcon: Icon.Home,
+                MenuScreenNavigate: App.ActiveScreen,
+                MenuId: 1,
+                SubMenu: Table({
+                    MenuLabel: "Currency",
+                    MenuIcon: Icon.ComputerDesktop,
+                    MenuScreenNavigate: App.ActiveScreen,
+                    MenuId: 1
+            })
+            },
+            {
+                MenuLabel: "Add Asset",
+                MenuIcon: Icon.ComputerDesktop,
+                MenuScreenNavigate: App.ActiveScreen,
+                MenuId: 2,
+                SubMenu: Table({
+                    MenuLabel: "Sub Menu 2",
+                    MenuIcon: Icon.ComputerDesktop,
+                    MenuScreenNavigate: App.ActiveScreen,
+                    MenuId: 2
+                },{
+                        MenuLabel: "Sub Menu 3",
+                        MenuIcon: Icon.ComputerDesktop,
+                        MenuScreenNavigate: App.ActiveScreen,
+                        MenuId: 23
+                })
+            },
+            {
+                MenuLabel: "Menu Item 2",
+                MenuIcon: Icon.Calculator,
+                MenuScreenNavigate: App.ActiveScreen,
+                MenuId: 3,
+                SubMenu: Table()
+            }
+        )
+    MenuWidth: =If(showMenu, Navigation.SetMenuWidth, icoHamburger.Width)
+    OnReset: =Set(showMenu, Navigation.ExpandMenu)
+    SetMenuWidth: =300
+    Width: =Navigation.MenuWidth
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    icoHamburger As icon.Hamburger:
+        Color: =Navigation.MenuColor
+        Height: =49
+        Icon: =Icon.Hamburger
+        OnSelect: =Set(showMenu, !showMenu)
+        PaddingBottom: =5
+        PaddingLeft: =5
+        PaddingRight: =5
+        PaddingTop: =5
+        Width: =59
+        ZIndex: =1
+
+    galMenu As gallery.variableTemplateHeightGallery:
+        Fill: =Navigation.MenuBackground
+        Height: =Parent.Height
+        Items: =Sort(Navigation.MenuItems, MenuId, Ascending)
+        Layout: =Layout.Vertical
+        TemplateSize: =280
+        Visible: =showMenu
+        Width: =Parent.Width
+        Y: =icoHamburger.Height
+        ZIndex: =2
+
+        rectActiveMenu As rectangle:
+            Fill: =Navigation.MenuColor
+            Height: =40
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.MenuScreenNavigate = App.ActiveScreen
+            Width: =5
+            ZIndex: =1
+
+        icoMenu As icon.Add:
+            Color: =Navigation.MenuColor
+            Height: =40
+            Icon: =ThisItem.MenuIcon
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            Width: =62
+            X: =5
+            ZIndex: =2
+
+        lblMenu As label:
+            AutoHeight: =true
+            Height: =70
+            OnSelect: =Select(Parent)
+            Size: =18
+            Text: =ThisItem.MenuLabel
+            Width: =Parent.TemplateWidth-icoMenu.Width-rectActiveMenu.Width
+            X: =67
+            ZIndex: =3
+
+        btnClick As button:
+            Color: =Navigation.MenuColor
+            Fill: =Transparent
+            Height: =lblMenu.Height+lblMenu.Y
+            HoverFill: =Transparent
+            OnSelect: =Navigate(ThisItem.MenuScreenNavigate, ScreenTransition.Cover)
+            PressedFill: =Transparent
+            Size: =24
+            Text: =""
+            Width: =Parent.TemplateWidth
+            ZIndex: =4
+
+        galSubMenu As gallery.variableTemplateHeightGallery:
+            Fill: =Navigation.MenuBackground
+            Height: |
+                =CountRows(ThisItem.SubMenu)*55
+            Items: =Sort(ThisItem.SubMenu, MenuId, Ascending)
+            Layout: =Layout.Vertical
+            TemplateSize: =CountRows(ThisItem.SubMenu)*50  
+            Visible: =showMenu
+            Width: |
+                =Parent.Width-20
+            X: =20
+            Y: =icoHamburger.Height
+            ZIndex: =5
+
+            rectActiveMenu_1 As rectangle:
+                Fill: =Navigation.MenuColor
+                Height: =40
+                OnSelect: =Select(Parent)
+                Visible: =ThisItem.MenuScreenNavigate = App.ActiveScreen
+                Width: =5
+                ZIndex: =1
+
+            icoMenu_1 As icon.Add:
+                Color: =Navigation.MenuColor
+                Height: =40
+                Icon: =ThisItem.MenuIcon
+                OnSelect: =Select(Parent)
+                PaddingBottom: =10
+                PaddingLeft: =10
+                PaddingRight: =10
+                PaddingTop: =10
+                Width: =29
+                ZIndex: =2
+
+            lblMenu_1 As label:
+                AutoHeight: =true
+                OnSelect: =Select(Parent)
+                Size: =18
+                Text: =ThisItem.MenuLabel
+                Width: =Parent.TemplateWidth-icoMenu.Width-rectActiveMenu.Width
+                X: =29
+                ZIndex: =3
+
+            btnClick_1 As button:
+                Color: =Navigation.MenuColor
+                Fill: =Transparent
+                Height: =lblMenu_1.Height+lblMenu_1.Y
+                HoverFill: =Transparent
+                OnSelect: =Navigate(ThisItem.MenuScreenNavigate, ScreenTransition.Cover)
+                PressedFill: =Transparent
+                Size: =24
+                Text: =""
+                Width: =Parent.TemplateWidth
+                ZIndex: =4
+

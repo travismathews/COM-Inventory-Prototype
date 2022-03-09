@@ -1,41 +1,86 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "Navigation": 1
+  },
   "ControlUniqueIds": {
     "App": 1,
-    "Gallery1": 4,
-    "galleryTemplate1": 5,
+    "btnClick": 12,
+    "btnClick_1": 18,
+    "galleryTemplate1": 10,
+    "galleryTemplate1_1": 16,
+    "galMenu": 9,
+    "galSubMenu": 15,
+    "icoHamburger": 8,
+    "icoMenu": 13,
+    "icoMenu_1": 19,
+    "lblMenu": 14,
+    "lblMenu_1": 20,
+    "Navigation": 7,
+    "rectActiveMenu": 11,
+    "rectActiveMenu_1": 17,
+    "rectTopBannerBG": 6,
     "Screen1": 3
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "03/07/2022 21:24:32",
+  "HeaderLastSavedDateTimeUTC": "03/09/2022 13:31:56",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
+  "OrderComponentMetadata": {
+    "d147cebd21044b1c9bfdd7b32f46260b": 0
+  },
+  "OrderComponentTemplate": {
+    "d147cebd21044b1c9bfdd7b32f46260b": 0
+  },
   "OrderDataSource": {
-    "CustomGallerySample": 0
+    "CustomGallerySample": 2,
+    "Office365Outlook": 0,
+    "Office365Users": 1
   },
   "OrderGroupControls": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "gallery": 0
+    "button": 3,
+    "gallery": 2,
+    "icon": 1,
+    "label": 4,
+    "rectangle": 0
   },
   "PublishOrderIndices": {
     "App": 0,
-    "Gallery1": 0,
-    "galleryTemplate1": 1,
+    "btnClick": 6,
+    "btnClick_1": 13,
+    "galleryTemplate1": 4,
+    "galleryTemplate1_1": 10,
+    "galMenu": 3,
+    "galSubMenu": 9,
+    "icoHamburger": 2,
+    "icoMenu": 7,
+    "icoMenu_1": 12,
+    "lblMenu": 8,
+    "lblMenu_1": 14,
+    "Navigation": 0,
+    "rectActiveMenu": 5,
+    "rectActiveMenu_1": 11,
+    "rectTopBannerBG": 0,
     "Screen1": 0
   },
   "ResourcesJsonIndices": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0411462,
+    "AnalysisLoadTime": 0.0774437,
     "ControlCount": {
+      "button": 2,
+      "d147cebd21044b1c9bfdd7b32f46260b": 2,
+      "gallery": 3,
+      "galleryTemplate": 3,
+      "icon": 3,
+      "label": 2,
+      "rectangle": 2,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.5699176,
+    "DeserializationLoadTime": 1.4124769,
     "ErrorCount": 0
   }
 }
