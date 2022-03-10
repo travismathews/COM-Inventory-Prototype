@@ -20,7 +20,7 @@ App As appinfo:
                         {
                             MenuLabel: "Add Asset",
                             MenuIcon: Icon.ComputerDesktop,
-                            MenuScreenNavigate: App.ActiveScreen,
+                            MenuScreenNavigate: 'Add Asset',
                             MenuId: 10,
                             AdminOnly: false
                         },

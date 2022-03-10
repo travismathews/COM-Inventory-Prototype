@@ -1,4 +1,5 @@
 "'Add Asset' As screen.'tabletLayout_HeaderAndGallery_ver3.0'":
+    OnVisible: =Set(varShowMenu, true); Set(varShowMenu,false);
 
     rectTopBannerBG_2 As rectangle:
         Fill: =RGBA(224, 1, 34, 1)
@@ -13,4 +14,14 @@
         Text: ="Add Asset"
         Width: =Parent.Width
         ZIndex: =2
+
+    Navigation_3 As Navigation:
+        ExpandMenu: =varShowMenu
+        Height: =Parent.Height
+        MenuIconColor: =RGBA(255, 255, 255, 1)
+        MenuItems: =colMenu
+        MenuWidth: =If(showMenu, Navigation_3.SetMenuWidth, icoHamburger.Width)
+        OnReset: =Set(showMenu, Navigation_3.ExpandMenu)
+        Width: =Navigation_3.MenuWidth
+        ZIndex: =3
 
