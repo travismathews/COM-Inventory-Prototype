@@ -97,6 +97,8 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1"
+    "Home",
+    "Asset Inventory",
+    "Add Asset"
   ]
 }

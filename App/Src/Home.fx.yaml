@@ -1,0 +1,17 @@
+Home As screen:
+
+    rectTopBannerBG As rectangle:
+        Fill: =RGBA(224, 1, 34, 1)
+        Height: =60
+        Width: =1366
+        ZIndex: =1
+
+    Navigation_1 As Navigation:
+        Height: =Parent.Height
+        MenuIconColor: =RGBA(255, 255, 255, 1)
+        MenuItems: =colMenu
+        MenuWidth: =If(showMenu, Navigation_1.SetMenuWidth, icoHamburger.Width)
+        OnReset: =Set(showMenu, Navigation_1.ExpandMenu)
+        Width: =Navigation_1.MenuWidth
+        ZIndex: =2
+
