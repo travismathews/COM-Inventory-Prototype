@@ -9,19 +9,60 @@
 
     Title1_1 As label:
         Align: =Align.Center
+        FontWeight: =FontWeight.Bold
         Height: =60
         PaddingRight: =10
         Text: ="Add Asset"
         Width: =Parent.Width
         ZIndex: =2
 
-    Navigation_3 As Navigation:
-        ExpandMenu: =varShowMenu
-        Height: =Parent.Height
-        MenuIconColor: =RGBA(255, 255, 255, 1)
-        MenuItems: =colMenu
-        MenuWidth: =If(showMenu, Navigation_3.SetMenuWidth, icoHamburger.Width)
-        OnReset: =Set(showMenu, Navigation_3.ExpandMenu)
-        Width: =Navigation_3.MenuWidth
+    TextInput1 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Default: =""
+        Height: =551
+        HoverBorderColor: =RGBA(0, 0, 0, 1)
+        Mode: =TextMode.MultiLine
+        PaddingBottom: =15
+        PaddingLeft: =15
+        PaddingRight: =15
+        PaddingTop: =15
+        Size: =18
+        Width: =350
+        X: =40
+        Y: =158
         ZIndex: =3
+
+    Label1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =41
+        Size: =18
+        Text: ="Asset Serial Numbers"
+        Width: =320
+        X: =40
+        Y: =100
+        ZIndex: =4
+
+    Label1_1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =41
+        Size: =18
+        Text: ="Location"
+        Width: =320
+        X: =490
+        Y: =100
+        ZIndex: =5
+
+    Dropdown1 As dropdown:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        ChevronBackground: =RGBA(0, 0, 0, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(238,204,204, 1), -20%)
+        Height: =57
+        HoverFill: =RGBA(238, 204, 204, 1)
+        Items: =colMenu
+        PressedFill: =RGBA(238, 204, 204, 1)
+        SelectionFill: =RGBA(255, 0, 0, 1)
+        Size: =18
+        X: =490
+        Y: =158
+        ZIndex: =6
 

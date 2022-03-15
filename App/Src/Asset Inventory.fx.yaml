@@ -9,6 +9,7 @@
 
     Title1 As label:
         Align: =Align.Center
+        FontWeight: =FontWeight.Bold
         Height: =60
         PaddingRight: =10
         Text: ="Asset Inventory"
@@ -83,14 +84,4 @@
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
-
-    Navigation_2 As Navigation:
-        ExpandMenu: =true
-        Height: =Parent.Height
-        MenuIconColor: =RGBA(255, 255, 255, 1)
-        MenuItems: =colMenu
-        MenuWidth: =If(showMenu, Navigation_2.SetMenuWidth, icoHamburger.Width)
-        OnReset: =Set(showMenu, Navigation_2.ExpandMenu)
-        Width: =Navigation_2.MenuWidth
-        ZIndex: =4
 

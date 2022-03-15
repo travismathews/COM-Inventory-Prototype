@@ -65,5 +65,17 @@ App As appinfo:
                     AdminOnly: true
                 }
             )
-        )
+        );
+        ClearCollect(locDropdown, Table(
+            {
+                DropdownLabel: "In Route"
+            },
+            
+                DropdownLabel: "Logan"
+            },
+            
+                LocationLabel: "MSB"
+            }
+        
+        ));
 
