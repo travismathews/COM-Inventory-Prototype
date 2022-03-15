@@ -56,13 +56,25 @@
         BorderColor: =RGBA(0, 0, 0, 1)
         ChevronBackground: =RGBA(0, 0, 0, 1)
         ChevronHoverBackground: =ColorFade(RGBA(238,204,204, 1), -20%)
+        Default: ="2"
         Height: =57
         HoverFill: =RGBA(238, 204, 204, 1)
-        Items: =locMenu
+        Items: =colLocations
         PressedFill: =RGBA(238, 204, 204, 1)
         SelectionFill: =RGBA(255, 0, 0, 1)
         Size: =18
         X: =490
         Y: =158
         ZIndex: =6
+
+    Icon1_1 As icon.Add:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =50
+        Icon: =Icon.Home
+        OnSelect: =Navigate(Home, UnCoverRight)
+        Width: =50
+        X: =23
+        Y: =5
+        ZIndex: =7
 

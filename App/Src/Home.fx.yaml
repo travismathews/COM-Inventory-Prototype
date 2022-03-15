@@ -7,3 +7,34 @@ Home As screen:
         Width: =1366
         ZIndex: =1
 
+    Title_Home As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =60
+        PaddingRight: =10
+        Text: ="Home"
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Button1 As button:
+        Fill: =RGBA(224, 1, 34, 1)
+        Height: =67
+        HoverFill: =ColorFade(RGBA(224,1,34, 1), -20%)
+        OnSelect: =Navigate('Add Asset',ScreenTransition.Cover)
+        Text: ="Add New Asset"
+        Width: =268
+        X: =60
+        Y: =136
+        ZIndex: =3
+
+    Icon1 As icon.Add:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =50
+        Icon: =Icon.Home
+        OnSelect: =Navigate(Home, UnCoverRight)
+        Width: =50
+        X: =23
+        Y: =5
+        ZIndex: =4
+
