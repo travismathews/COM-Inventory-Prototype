@@ -7,7 +7,7 @@
         Width: =1366
         ZIndex: =1
 
-    Title1_1 As label:
+    Title_Add_Asset As label:
         Align: =Align.Center
         FontWeight: =FontWeight.Bold
         Height: =60
@@ -16,10 +16,10 @@
         Width: =Parent.Width
         ZIndex: =2
 
-    TextInput1 As text:
+    TextInput_SerialNumbers As text:
         BorderColor: =RGBA(0, 0, 0, 1)
         Default: =""
-        Height: =551
+        Height: =490
         HoverBorderColor: =RGBA(0, 0, 0, 1)
         Mode: =TextMode.MultiLine
         PaddingBottom: =15
@@ -32,7 +32,7 @@
         Y: =158
         ZIndex: =3
 
-    Label1 As label:
+    Label_SerialNumbers As label:
         FontWeight: =FontWeight.Bold
         Height: =41
         Size: =18
@@ -42,17 +42,7 @@
         Y: =100
         ZIndex: =4
 
-    Label1_1 As label:
-        FontWeight: =FontWeight.Bold
-        Height: =41
-        Size: =18
-        Text: ="Location"
-        Width: =320
-        X: =490
-        Y: =100
-        ZIndex: =5
-
-    Dropdown1 As dropdown:
+    Dropdown_Location As dropdown:
         BorderColor: =RGBA(0, 0, 0, 1)
         ChevronBackground: =RGBA(0, 0, 0, 1)
         ChevronHoverBackground: =ColorFade(RGBA(238,204,204, 1), -20%)
@@ -65,9 +55,19 @@
         Size: =18
         X: =490
         Y: =158
+        ZIndex: =5
+
+    Label_Location As label:
+        FontWeight: =FontWeight.Bold
+        Height: =41
+        Size: =18
+        Text: ="Location"
+        Width: =320
+        X: =490
+        Y: =100
         ZIndex: =6
 
-    Icon1_1 As icon.Add:
+    Icon_Home As icon.Add:
         BorderColor: =RGBA(255, 255, 255, 1)
         Color: =RGBA(255, 255, 255, 1)
         Height: =50
@@ -77,4 +77,93 @@
         X: =23
         Y: =5
         ZIndex: =7
+
+    BarcodeScanner1 As barcodeScanner:
+        Fill: =RGBA(224, 1, 34, 1)
+        Height: =64
+        HoverFill: =ColorFade(RGBA(244,1,34, 1), -20%)
+        RadiusBottomLeft: =5
+        RadiusBottomRight: =5
+        RadiusTopLeft: =5
+        RadiusTopRight: =5
+        Size: =18
+        Text: ="Scan"
+        Width: =350
+        X: =40
+        Y: =675
+        ZIndex: =8
+
+    Label_Manufacturer As label:
+        FontWeight: =FontWeight.Bold
+        Height: =41
+        Size: =18
+        Text: ="Manufacturer"
+        Width: =320
+        X: =490
+        Y: =291
+        ZIndex: =9
+
+    Dropdown_Manufacturer As dropdown:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        ChevronBackground: =RGBA(0, 0, 0, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(238,204,204, 1), -20%)
+        Default: ="2"
+        Height: =57
+        HoverFill: =RGBA(238, 204, 204, 1)
+        Items: =colLocations
+        PressedFill: =RGBA(238, 204, 204, 1)
+        SelectionFill: =RGBA(255, 0, 0, 1)
+        Size: =18
+        X: =490
+        Y: =349
+        ZIndex: =10
+
+    Rectangle1 As rectangle:
+        Fill: =RGBA(230, 230, 230, 1)
+        Height: =250
+        Width: =820
+        X: =465
+        Y: =489
+        ZIndex: =11
+
+    Label_Manufacturer_1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =41
+        Size: =18
+        Text: ="Scanned Date"
+        Width: =320
+        X: =498
+        Y: =520
+        ZIndex: =12
+
+    Label2 As label:
+        DisplayMode: =DisplayMode.View
+        Height: =48
+        Size: =18
+        Text: |-
+            =Text( Now(), "mm/dd/yyyy hh:mm" )
+        Width: =251
+        X: =498
+        Y: =561
+        ZIndex: =13
+
+    Label_Manufacturer_2 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =41
+        Size: =18
+        Text: ="Scanned By User"
+        Width: =320
+        X: =818
+        Y: =520
+        ZIndex: =14
+
+    Label2_1 As label:
+        DisplayMode: =DisplayMode.View
+        Height: =48
+        Size: =18
+        Text: =User().Email
+        Width: =382
+        X: =818
+        Y: =561
+        ZIndex: =15
 
