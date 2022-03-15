@@ -66,16 +66,11 @@ App As appinfo:
                 }
             )
         );
-        ClearCollect(locDropdown, Table(
-            {
-                DropdownLabel: "In Route"
-            },
-            
-                DropdownLabel: "Logan"
-            },
-            
-                LocationLabel: "MSB"
-            }
-        
-        ));
+        ClearCollect(
+            colLocations,
+            {Location: "In Route"},
+            {Location: "Logan"},
+            {Location: "MSB"},
+            {Location: "Deployed"}
+        )
 

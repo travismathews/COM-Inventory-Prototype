@@ -58,7 +58,7 @@
         ChevronHoverBackground: =ColorFade(RGBA(238,204,204, 1), -20%)
         Height: =57
         HoverFill: =RGBA(238, 204, 204, 1)
-        Items: =colMenu
+        Items: =locMenu
         PressedFill: =RGBA(238, 204, 204, 1)
         SelectionFill: =RGBA(255, 0, 0, 1)
         Size: =18
