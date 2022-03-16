@@ -120,20 +120,21 @@
 
     Rectangle1 As rectangle:
         Fill: =RGBA(230, 230, 230, 1)
-        Height: =250
-        Width: =820
-        X: =465
-        Y: =489
+        Height: =548
+        Width: =416
+        X: =909
+        Y: =100
         ZIndex: =11
 
     Label_Manufacturer_1 As label:
+        DisplayMode: =DisplayMode.View
         FontWeight: =FontWeight.Bold
         Height: =41
         Size: =18
         Text: ="Scanned Date"
         Width: =320
-        X: =498
-        Y: =520
+        X: =947
+        Y: =141
         ZIndex: =12
 
     Label2 As label:
@@ -143,18 +144,19 @@
         Text: |-
             =Text( Now(), "mm/dd/yyyy hh:mm" )
         Width: =251
-        X: =498
-        Y: =561
+        X: =947
+        Y: =182
         ZIndex: =13
 
     Label_Manufacturer_2 As label:
+        DisplayMode: =DisplayMode.View
         FontWeight: =FontWeight.Bold
         Height: =41
         Size: =18
         Text: ="Scanned By User"
         Width: =320
-        X: =818
-        Y: =520
+        X: =944
+        Y: =252
         ZIndex: =14
 
     Label2_1 As label:
@@ -163,7 +165,23 @@
         Size: =18
         Text: =User().Email
         Width: =382
-        X: =818
-        Y: =561
+        X: =944
+        Y: =293
         ZIndex: =15
+
+    Button1_1 As button:
+        Fill: =RGBA(224, 1, 34, 1)
+        Height: =64
+        HoverFill: =ColorFade(RGBA(224,1,34, 1), -20%)
+        OnSelect: =
+        RadiusBottomLeft: =5
+        RadiusBottomRight: =5
+        RadiusTopLeft: =5
+        RadiusTopRight: =5
+        Size: =18
+        Text: ="Submit"
+        Width: =417
+        X: =909
+        Y: =675
+        ZIndex: =16
 

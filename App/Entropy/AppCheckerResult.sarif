@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Asset Inventory.TemplateGalleryList1.AccessibleLabel"
+                  "fullyQualifiedName": "Add Asset.Icon_Home.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Asset Inventory.TemplateGalleryList1.AccessibleLabel",
+                  "fullyQualifiedName": "Add Asset.Icon_Home.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Asset Inventory",
-                "type": "Asset Inventory.TemplateGalleryList1"
+                "module": "Add Asset",
+                "type": "Add Asset.Icon_Home"
               }
             }
           ],
@@ -224,19 +224,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Asset Inventory.TemplateGalleryList1.TabIndex"
+                  "fullyQualifiedName": "Add Asset.Icon_Home.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Asset Inventory.TemplateGalleryList1.TabIndex",
+                  "fullyQualifiedName": "Add Asset.Icon_Home.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Asset Inventory",
-                "type": "Asset Inventory.TemplateGalleryList1"
+                "module": "Add Asset",
+                "type": "Add Asset.Icon_Home"
               }
             }
           ],
@@ -314,6 +314,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Add Asset.Dropdown_Manufacturer.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Add Asset.Dropdown_Manufacturer.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Add Asset",
+                "type": "Add Asset.Dropdown_Manufacturer"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Home.Icon1.AccessibleLabel"
                 }
               ],
@@ -374,19 +404,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Add Asset.Icon_Home.AccessibleLabel"
+                  "fullyQualifiedName": "Asset Inventory.TemplateGalleryList1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Add Asset.Icon_Home.AccessibleLabel",
+                  "fullyQualifiedName": "Asset Inventory.TemplateGalleryList1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Add Asset",
-                "type": "Add Asset.Icon_Home"
+                "module": "Asset Inventory",
+                "type": "Asset Inventory.TemplateGalleryList1"
               }
             }
           ],
@@ -404,19 +434,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Add Asset.Icon_Home.TabIndex"
+                  "fullyQualifiedName": "Asset Inventory.TemplateGalleryList1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Add Asset.Icon_Home.TabIndex",
+                  "fullyQualifiedName": "Asset Inventory.TemplateGalleryList1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Add Asset",
-                "type": "Add Asset.Icon_Home"
+                "module": "Asset Inventory",
+                "type": "Asset Inventory.TemplateGalleryList1"
               }
             }
           ],
@@ -428,36 +458,6 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Add Asset.Dropdown_Manufacturer.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Add Asset.Dropdown_Manufacturer.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Add Asset",
-                "type": "Add Asset.Dropdown_Manufacturer"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
         },
         {
           "locations": [
