@@ -19,7 +19,7 @@
     TextInput_SerialNumbers As text:
         BorderColor: =RGBA(0, 0, 0, 1)
         Default: =gScanData
-        Height: =490
+        Height: =184
         HoverBorderColor: =RGBA(0, 0, 0, 1)
         Mode: =TextMode.MultiLine
         PaddingBottom: =15
@@ -28,15 +28,15 @@
         PaddingTop: =15
         Size: =18
         Width: =350
-        X: =40
-        Y: =158
+        X: =474
+        Y: =518
         ZIndex: =3
 
     Label_SerialNumbers As label:
         FontWeight: =FontWeight.Bold
         Height: =41
         Size: =18
-        Text: ="Asset Serial Numbers"
+        Text: ="Asset Serial Numberss"
         Width: =320
         X: =40
         Y: =100
