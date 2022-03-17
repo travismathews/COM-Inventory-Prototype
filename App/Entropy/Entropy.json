@@ -52,7 +52,7 @@
     "Title2": 45
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "03/17/2022 17:20:34",
+  "HeaderLastSavedDateTimeUTC": "03/17/2022 19:27:07",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -64,10 +64,11 @@
     "d147cebd21044b1c9bfdd7b32f46260b": 0
   },
   "OrderDataSource": {
-    "colLocations": 5,
-    "colMenu": 4,
-    "CustomGallerySample": 2,
-    "DropDownSample": 3,
+    "AddSerialNumberstoAssetTable": 2,
+    "colLocations": 6,
+    "colMenu": 5,
+    "CustomGallerySample": 3,
+    "DropDownSample": 4,
     "Office365Outlook": 0,
     "Office365Users": 1
   },
@@ -76,13 +77,13 @@
   "OrderXMLTemplate": {
     "barcodeScanner": 5,
     "button": 6,
-    "dropdown": 3,
+    "dropdown": 4,
     "gallery": 7,
     "icon": 2,
     "image": 8,
     "label": 1,
     "rectangle": 0,
-    "text": 4
+    "text": 3
   },
   "PublishOrderIndices": {
     "Add Asset": 0,
@@ -93,8 +94,8 @@
     "btnClick_1": 40,
     "Button1": 3,
     "Button1_1": 28,
-    "Dropdown_Location": 20,
-    "Dropdown_Manufacturer": 25,
+    "Dropdown_Location": 21,
+    "Dropdown_Manufacturer": 26,
     "galleryTemplate1": 31,
     "galleryTemplate1_1": 37,
     "galleryTemplate2": 7,
@@ -108,12 +109,12 @@
     "Icon1": 2,
     "Image1": 8,
     "Label_Location": 17,
-    "Label_Manufacturer": 23,
+    "Label_Manufacturer": 24,
     "Label_Manufacturer_1": 19,
-    "Label_Manufacturer_2": 22,
+    "Label_Manufacturer_2": 23,
     "Label_SerialNumbers": 16,
-    "Label2": 21,
-    "Label2_1": 24,
+    "Label2": 22,
+    "Label2_1": 25,
     "lblMenu": 35,
     "lblMenu_1": 41,
     "Navigation": 0,
@@ -127,7 +128,7 @@
     "Separator1": 12,
     "Subtitle1": 11,
     "TemplateGalleryList1": 6,
-    "TextInput_SerialNumbers": 26,
+    "TextInput_SerialNumbers": 20,
     "Title_Add_Asset": 14,
     "Title_Home": 1,
     "Title1": 5,
@@ -138,7 +139,7 @@
   },
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.3677866,
+    "AnalysisLoadTime": 0.6713268,
     "ControlCount": {
       "barcodeScanner": 1,
       "button": 4,
@@ -153,7 +154,7 @@
       "screen": 3,
       "text": 1
     },
-    "DeserializationLoadTime": 1.0719024,
+    "DeserializationLoadTime": 3.5844979,
     "ErrorCount": 0
   }
 }
