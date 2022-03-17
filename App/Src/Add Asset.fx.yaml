@@ -19,7 +19,7 @@
     TextInput_SerialNumbers As text:
         BorderColor: =RGBA(0, 0, 0, 1)
         Default: =gScanData
-        Height: =184
+        Height: =490
         HoverBorderColor: =RGBA(0, 0, 0, 1)
         Mode: =TextMode.MultiLine
         PaddingBottom: =15
@@ -28,8 +28,8 @@
         PaddingTop: =15
         Size: =18
         Width: =350
-        X: =474
-        Y: =518
+        X: =40
+        Y: =158
         ZIndex: =3
 
     Label_SerialNumbers As label:
