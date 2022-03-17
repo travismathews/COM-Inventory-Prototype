@@ -82,7 +82,7 @@
         Fill: =RGBA(224, 1, 34, 1)
         Height: =64
         HoverFill: =ColorFade(RGBA(244,1,34, 1), -20%)
-        OnScan: =If(!IsEmpty(TextInput_SerialNumbers),Set(gScanData, BarcodeScanner1.Value),Set(gScanData,gScanData & Char(10) & BarcodeScanner1.Value));Select(BarcodeScanner1)
+        OnScan: =Set(gScanData,gScanData & Char(10) & BarcodeScanner1.Value);Select(BarcodeScanner1)
         RadiusBottomLeft: =5
         RadiusBottomRight: =5
         RadiusTopLeft: =5
