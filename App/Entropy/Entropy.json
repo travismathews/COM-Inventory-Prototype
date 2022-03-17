@@ -52,7 +52,7 @@
     "Title2": 45
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "03/17/2022 13:54:10",
+  "HeaderLastSavedDateTimeUTC": "03/17/2022 14:07:05",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -138,7 +138,7 @@
   },
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.4318708,
+    "AnalysisLoadTime": 0.3677866,
     "ControlCount": {
       "barcodeScanner": 1,
       "button": 4,
@@ -153,7 +153,7 @@
       "screen": 3,
       "text": 1
     },
-    "DeserializationLoadTime": 2.3203445,
+    "DeserializationLoadTime": 1.0719024,
     "ErrorCount": 0
   }
 }
