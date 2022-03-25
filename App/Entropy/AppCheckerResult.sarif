@@ -254,6 +254,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Add Asset.TextInput_SerialNumbers.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Add Asset.TextInput_SerialNumbers.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Add Asset",
+                "type": "Add Asset.TextInput_SerialNumbers"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Add Asset.Dropdown_Location.AccessibleLabel"
                 }
               ],
@@ -297,36 +327,6 @@
                 "member": "AccessibleLabel",
                 "module": "Add Asset",
                 "type": "Add Asset.Dropdown_Manufacturer"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Add Asset.TextInput_SerialNumbers.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Add Asset.TextInput_SerialNumbers.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Add Asset",
-                "type": "Add Asset.TextInput_SerialNumbers"
               }
             }
           ],

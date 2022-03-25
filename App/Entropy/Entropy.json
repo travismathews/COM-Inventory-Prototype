@@ -11,8 +11,8 @@
     "btnClick_1": 15,
     "Button1": 38,
     "Button1_1": 33,
-    "Dropdown_Location": 25,
-    "Dropdown_Manufacturer": 30,
+    "Dropdown_Location": 26,
+    "Dropdown_Manufacturer": 31,
     "galleryTemplate1": 6,
     "galleryTemplate1_1": 12,
     "galleryTemplate2": 43,
@@ -26,12 +26,12 @@
     "Icon1": 37,
     "Image1": 44,
     "Label_Location": 22,
-    "Label_Manufacturer": 28,
+    "Label_Manufacturer": 29,
     "Label_Manufacturer_1": 24,
-    "Label_Manufacturer_2": 27,
+    "Label_Manufacturer_2": 28,
     "Label_SerialNumbers": 21,
-    "Label2": 26,
-    "Label2_1": 29,
+    "Label2": 27,
+    "Label2_1": 30,
     "lblMenu": 10,
     "lblMenu_1": 16,
     "Navigation": 3,
@@ -45,14 +45,14 @@
     "Separator1": 48,
     "Subtitle1": 47,
     "TemplateGalleryList1": 42,
-    "TextInput_SerialNumbers": 31,
+    "TextInput_SerialNumbers": 25,
     "Title_Add_Asset": 19,
     "Title_Home": 36,
     "Title1": 41,
     "Title2": 45
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "03/17/2022 19:27:07",
+  "HeaderLastSavedDateTimeUTC": "03/25/2022 20:20:25",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -139,7 +139,7 @@
   },
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.6713268,
+    "AnalysisLoadTime": 0.4122311,
     "ControlCount": {
       "barcodeScanner": 1,
       "button": 4,
@@ -154,7 +154,7 @@
       "screen": 3,
       "text": 1
     },
-    "DeserializationLoadTime": 3.5844979,
+    "DeserializationLoadTime": 2.1626755,
     "ErrorCount": 0
   }
 }

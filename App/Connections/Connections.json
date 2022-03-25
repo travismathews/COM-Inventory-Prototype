@@ -17,51 +17,8 @@
       "Office365Outlook"
     ],
     "dependencies": {},
-    "dependents": [
-      "8733e3b1-ad37-40ce-a87e-31a7652cc4a4"
-    ],
-    "id": "6e4e40ea-bc64-4e23-ae9d-e0701269834b"
-  },
-  "8733e3b1-ad37-40ce-a87e-31a7652cc4a4": {
-    "connectionInstanceId": "/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/36129984A8D54B07AC93CB75AF0919F0-B0DB1BCF7D2B6EEC",
-    "connectionParameters": {
-      "workFlowCallbackUri": "https://prod-101.westus.logic.azure.com:443/workflows/4dee519b23a1465eb6c567880def2384/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=rUUcYjormLSuxRwPFkYLL4jgw50DZx8BUg9kIXZVeUw",
-      "workflowEndpoint": "/subscriptions/427976e2-4271-4308-afb8-d28d53a6ad06/resourceGroups/f5222e6c5fc648eb8f0373db18203b63-f49eac13c52243f0808daef3af1ff2cf/providers/Microsoft.Logic/workflows/36129984-a8d5-4b07-ac93-cb75af0919f0",
-      "workflowName": "36129984-a8d5-4b07-ac93-cb75af0919f0",
-      "workflowPath": "/subscriptions/427976e2-4271-4308-afb8-d28d53a6ad06/resourceGroups/f5222e6c5fc648eb8f0373db18203b63-f49eac13c52243f0808daef3af1ff2cf/providers/Microsoft.Logic/workflows/36129984-a8d5-4b07-ac93-cb75af0919f0"
-    },
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "6e4e40ea-bc64-4e23-ae9d-e0701269834b": {
-          "value": "shared_office365"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "36129984-a8d5-4b07-ac93-cb75af0919f0"
-        }
-      },
-      "parameterHintsV2": {
-        "shared_office365": {
-          "value": "6e4e40ea-bc64-4e23-ae9d-e0701269834b"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "36129984-a8d5-4b07-ac93-cb75af0919f0"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "AddSerialNumberstoAssetTable"
-    ],
-    "dependencies": {
-      "shared_office365": "6e4e40ea-bc64-4e23-ae9d-e0701269834b"
-    },
     "dependents": [],
-    "id": "8733e3b1-ad37-40ce-a87e-31a7652cc4a4"
+    "id": "6e4e40ea-bc64-4e23-ae9d-e0701269834b"
   },
   "b2053821-ccfc-481a-aa5e-7fe4d0490213": {
     "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365users/connections/b846511af7a74b39b0b4f5098a8c4cbd",
@@ -83,5 +40,38 @@
     "dependencies": {},
     "dependents": [],
     "id": "b2053821-ccfc-481a-aa5e-7fe4d0490213"
+  },
+  "ba0ec580-2ea0-47b1-9add-f69a725d2ed1": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_logicflows/connections/36129984a8d54b07ac93cb75af0919f0-b0db1bcf7d2b6eec",
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-101.westus.logic.azure.com:443/workflows/4dee519b23a1465eb6c567880def2384/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=rUUcYjormLSuxRwPFkYLL4jgw50DZx8BUg9kIXZVeUw",
+      "workflowEndpoint": "/subscriptions/427976e2-4271-4308-afb8-d28d53a6ad06/resourceGroups/f5222e6c5fc648eb8f0373db18203b63-f49eac13c52243f0808daef3af1ff2cf/providers/Microsoft.Logic/workflows/36129984-a8d5-4b07-ac93-cb75af0919f0",
+      "workflowName": "36129984-a8d5-4b07-ac93-cb75af0919f0",
+      "workflowPath": "/subscriptions/427976e2-4271-4308-afb8-d28d53a6ad06/resourceGroups/f5222e6c5fc648eb8f0373db18203b63-f49eac13c52243f0808daef3af1ff2cf/providers/Microsoft.Logic/workflows/36129984-a8d5-4b07-ac93-cb75af0919f0"
+    },
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "36129984-a8d5-4b07-ac93-cb75af0919f0"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "36129984-a8d5-4b07-ac93-cb75af0919f0"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "AddSerialNumberstoAssetTable"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "ba0ec580-2ea0-47b1-9add-f69a725d2ed1"
   }
 }
