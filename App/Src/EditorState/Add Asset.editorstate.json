@@ -1145,7 +1145,7 @@
       },
       {
         "Category": "Data",
-        "NameMap": "{\"Value\":\"Location\"}",
+        "NameMap": "{\"Value\":\"Manufacturer\"}",
         "PropertyName": "Items",
         "RuleProviderType": "Unknown"
       },

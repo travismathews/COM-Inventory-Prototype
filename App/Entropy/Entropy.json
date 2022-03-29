@@ -52,7 +52,7 @@
     "Title2": 45
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "03/25/2022 20:20:25",
+  "HeaderLastSavedDateTimeUTC": "03/29/2022 17:02:43",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -64,9 +64,9 @@
     "d147cebd21044b1c9bfdd7b32f46260b": 0
   },
   "OrderDataSource": {
-    "AddSerialNumberstoAssetTable": 2,
-    "colLocations": 6,
-    "colMenu": 5,
+    "AddAssettoDB": 2,
+    "colLocations": 5,
+    "colManufacturer": 6,
     "CustomGallerySample": 3,
     "DropDownSample": 4,
     "Office365Outlook": 0,
@@ -139,7 +139,7 @@
   },
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.4122311,
+    "AnalysisLoadTime": 0.4245645,
     "ControlCount": {
       "barcodeScanner": 1,
       "button": 4,
@@ -154,7 +154,7 @@
       "screen": 3,
       "text": 1
     },
-    "DeserializationLoadTime": 2.1626755,
+    "DeserializationLoadTime": 1.2043787,
     "ErrorCount": 0
   }
 }

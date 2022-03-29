@@ -2,75 +2,17 @@ App As appinfo:
     BackEnabled: =false
     OnStart: |-
         =ClearCollect(
-            colMenu,
-            Table(
-                {
-                    MenuLabel: "Home",
-                    MenuIcon: Icon.Home,
-                    MenuScreenNavigate: Home,
-                    MenuId: 10,
-                    AdminOnly: false
-                },
-                {
-                    MenuLabel: "Asset Inventory",
-                    MenuIcon: Icon.ComputerDesktop,
-                    MenuScreenNavigate: 'Asset Inventory',
-                    MenuId: 20,
-                    SubMenu: Table(
-                        {
-                            MenuLabel: "Add Asset",
-                            MenuIcon: Icon.ComputerDesktop,
-                            MenuScreenNavigate: 'Add Asset',
-                            MenuId: 10,
-                            AdminOnly: false
-                        },
-                        {
-                            MenuLabel: "Image Asset",
-                            MenuIcon: Icon.ComputerDesktop,
-                            MenuScreenNavigate: App.ActiveScreen,
-                            MenuId: 20,
-                            AdminOnly: false
-                        },
-                        {
-                            MenuLabel: "Remove Asset",
-                            MenuIcon: Icon.ComputerDesktop,
-                            MenuScreenNavigate: App.ActiveScreen,
-                            MenuId: 30,
-                            AdminOnly: true
-                        }
-                    ),
-                    AdminOnly: false
-                },
-                {
-                    MenuLabel: "Admin Settings",
-                    MenuIcon: Icon.Settings,
-                    MenuScreenNavigate: App.ActiveScreen,
-                    MenuId: 30,
-                    SubMenu: Table(
-                        {
-                            MenuLabel: "Sub Menu 2",
-                            MenuIcon: Icon.ComputerDesktop,
-                            MenuScreenNavigate: App.ActiveScreen,
-                            MenuId: 2,
-                            AdminOnly: true
-                        },
-                        {
-                            MenuLabel: "Sub Menu 3",
-                            MenuIcon: Icon.ComputerDesktop,
-                            MenuScreenNavigate: App.ActiveScreen,
-                            MenuId: 23,
-                            AdminOnly: false
-                        }
-                    ),
-                    AdminOnly: true
-                }
-            )
-        );
-        ClearCollect(
             colLocations,
             {Location: "In Route"},
             {Location: "Logan"},
             {Location: "MSB"},
             {Location: "Deployed"}
-        )
+        );
+        ClearCollect(
+            colManufacturer,
+            {Manufacturer: "Dell"},
+            {Manufacturer: "Microsoft"},
+            {Manufacturer: "CDW"},
+            {Manufacturer: "Other"}
+        );
 

@@ -1,8 +1,8 @@
 [
   {
     "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
-    "FlowNameId": "36129984-a8d5-4b07-ac93-cb75af0919f0",
-    "Name": "AddSerialNumberstoAssetTable",
+    "FlowNameId": "e60c8f07-4e40-416f-84aa-584a3e96f473",
+    "Name": "AddAssettoDB",
     "ServiceKind": "ConnectedWadl",
     "Type": "ServiceInfo",
     "WorkflowEntityId": null
