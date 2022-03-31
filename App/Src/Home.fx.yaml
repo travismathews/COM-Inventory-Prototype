@@ -38,3 +38,14 @@ Home As screen:
         Y: =5
         ZIndex: =4
 
+    Button1_2 As button:
+        Fill: =RGBA(224, 1, 34, 1)
+        Height: =67
+        HoverFill: =ColorFade(RGBA(224,1,34, 1), -20%)
+        OnSelect: =Navigate('Asset Inventory',ScreenTransition.Cover)
+        Text: ="View Asset Inventory"
+        Width: =268
+        X: =549
+        Y: =136
+        ZIndex: =5
+
