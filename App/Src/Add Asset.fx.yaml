@@ -36,7 +36,7 @@
         FontWeight: =FontWeight.Bold
         Height: =41
         Size: =18
-        Text: ="Asset Serial Numberss"
+        Text: ="Asset Serial Numbers"
         Width: =320
         X: =40
         Y: =100

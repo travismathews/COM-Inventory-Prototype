@@ -1,4 +1,27 @@
 {
+  "3ea9d3d0-38a3-48a2-aaca-360a268912b1": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sql/connections/shared-sql-b1a2ffdc-2182-43b1-92b3-f386bfe99b8d",
+    "connectionParameters": {
+      "database": "SSI",
+      "server": "com-db2-test"
+    },
+    "connectionRef": {
+      "authenticationType": "windowsAuthentication",
+      "displayName": "SQL Server",
+      "gatewayObjectIdHint": "c7dc3ff7-b316-4df9-8b2f-88d01ffbbc6c",
+      "iconUri": "https://connectoricons-prod.azureedge.net/laborbol/patches/1520/sql-mi/1.0.1520.2574/sql/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sql",
+      "isOnPremiseConnection": true,
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/shared-sql-b1a2ffdc-2182-43b1-92b3-f386bfe99b8d"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "b835888c-591d-4924-ba96-3823667a80ce"
+    ],
+    "id": "3ea9d3d0-38a3-48a2-aaca-360a268912b1"
+  },
   "6e4e40ea-bc64-4e23-ae9d-e0701269834b": {
     "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365/connections/shared-office365-46b8ab71-acca-416f-9779-9dd5-c4e3d758",
     "connectionParameters": {
@@ -41,7 +64,7 @@
     "dependents": [],
     "id": "b2053821-ccfc-481a-aa5e-7fe4d0490213"
   },
-  "c91f34c3-1e0d-4e42-8f36-529e615912bf": {
+  "b835888c-591d-4924-ba96-3823667a80ce": {
     "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_logicflows/connections/e60c8f074e40416f84aa584a3e96f473-b0db1bcf7d2b6eec",
     "connectionParameters": {
       "workFlowCallbackUri": "https://prod-29.westus.logic.azure.com:443/workflows/f296129723fe4e23881036607fe6d784/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=dg4HuAQvfSfCs6dm6IImsXNJYpldba7GQkrjSImO86s",
@@ -54,12 +77,18 @@
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
+        "3ea9d3d0-38a3-48a2-aaca-360a268912b1": {
+          "value": "shared_sql_1"
+        },
         "workflowEntityId": {},
         "workflowName": {
           "value": "e60c8f07-4e40-416f-84aa-584a3e96f473"
         }
       },
       "parameterHintsV2": {
+        "shared_sql_1": {
+          "value": "3ea9d3d0-38a3-48a2-aaca-360a268912b1"
+        },
         "workflowEntityId": {},
         "workflowName": {
           "value": "e60c8f07-4e40-416f-84aa-584a3e96f473"
@@ -70,8 +99,10 @@
     "dataSources": [
       "AddAssettoDB"
     ],
-    "dependencies": {},
+    "dependencies": {
+      "shared_sql_1": "3ea9d3d0-38a3-48a2-aaca-360a268912b1"
+    },
     "dependents": [],
-    "id": "c91f34c3-1e0d-4e42-8f36-529e615912bf"
+    "id": "b835888c-591d-4924-ba96-3823667a80ce"
   }
 }
