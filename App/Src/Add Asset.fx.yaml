@@ -187,11 +187,15 @@
         Height: =64
         HoverFill: =ColorFade(RGBA(224,1,34, 1), -20%)
         OnSelect: |-
-            =AddAssettoDB.Run(
-                TextInput_SerialNumbers,
-                Dropdown_Location.Selected.Location,
-                Dropdown_Manufacturer.Selected.Manufacturer,
-                User().Email
+            =If(
+                AddBulkAssetstoDB.Run(
+                    TextInput_SerialNumbers,
+                    Dropdown_Location.Selected.Location,
+                    Dropdown_Manufacturer.Selected.Manufacturer,
+                    User().Email
+                ),
+                Navigate('Add Asset Success'),
+                Notify("Failed to add assets...")
             )
         RadiusBottomLeft: =5
         RadiusBottomRight: =5

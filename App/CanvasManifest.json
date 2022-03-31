@@ -99,6 +99,7 @@
   "ScreenOrder": [
     "Home",
     "Asset Inventory",
-    "Add Asset"
+    "Add Asset",
+    "Add Asset Success"
   ]
 }
