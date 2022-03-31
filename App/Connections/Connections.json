@@ -14,8 +14,18 @@
       "isOnPremiseConnection": true,
       "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/shared-sql-b1a2ffdc-2182-43b1-92b3-f386bfe99b8d"
     },
-    "datasets": {},
-    "dataSources": [],
+    "datasets": {
+      "com-db2-test,SSI": {
+        "dataSources": {
+          "InvAssets": {
+            "tableName": "[dbo].[InvAssets]"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "InvAssets"
+    ],
     "dependencies": {},
     "dependents": [
       "b835888c-591d-4924-ba96-3823667a80ce",

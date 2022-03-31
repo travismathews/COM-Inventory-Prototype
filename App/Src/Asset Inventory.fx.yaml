@@ -7,32 +7,15 @@
         Width: =1366
         ZIndex: =1
 
-    Title1 As label:
-        Align: =Align.Center
-        FontWeight: =FontWeight.Bold
-        Height: =60
-        PaddingRight: =10
-        Text: ="Asset Inventory"
-        Width: =Parent.Width
-        ZIndex: =2
-
-    "TemplateGalleryList1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+    "TemplateGalleryList1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =Parent.Height - TemplateGalleryList1.Y
-        Items: =CustomGallerySample
+        Items: =InvAssets
         Layout: =Layout.Vertical
         TemplatePadding: =0
-        TemplateSize: =Min(160, Self.Height - 60)
+        TemplateSize: =Min(168, Self.Height - 60)
         Width: =Parent.Width
         Y: =64
-        ZIndex: =3
-
-        Image1 As image:
-            Height: =128
-            OnSelect: =Select(Parent)
-            Width: =128
-            X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =1
+        ZIndex: =1
 
         Title2 As label:
             Height: =Self.Size * 1.8
@@ -41,12 +24,12 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.SampleHeading
+            Text: =ThisItem.SerialNumber
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image1.Width - 104
-            X: =Image1.X + Image1.Width + 24
-            Y: =44
-            ZIndex: =2
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =16
+            ZIndex: =1
 
         Subtitle1 As label:
             Height: =Self.Size * 1.8
@@ -55,11 +38,25 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.SampleText
+            Text: =ThisItem.Location
             VerticalAlign: =VerticalAlign.Top
-            Width: =Title2.Width
-            X: =Title2.X
-            Y: =Title2.Y + Title2.Height + 4
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Title2.Y + Title2.Height + 2
+            ZIndex: =2
+
+        Body1 As label:
+            Height: =Self.Size * 4
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Status
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Subtitle1.Y + Subtitle1.Height + 4
             ZIndex: =3
 
         NextArrow1 As icon.ChevronRight:
@@ -84,4 +81,13 @@
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
+
+    Title1 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =60
+        PaddingRight: =10
+        Text: ="Asset Inventory"
+        Width: =Parent.Width
+        ZIndex: =2
 
