@@ -11,6 +11,7 @@
         Height: =Parent.Height - TemplateGalleryList1.Y
         Items: =InvAssets
         Layout: =Layout.Vertical
+        OnSelect: =Navigate('Asset Details', Cover)
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
         Width: =Parent.Width
