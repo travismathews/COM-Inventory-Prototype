@@ -85,10 +85,11 @@
         OnScan: |-
             =If(
                 !IsEmpty(TextInput_SerialNumbers),
+                If(BarcodeScanner1.Value in gScanData, false,
                 Set(
                     gScanData,
                     gScanData & BarcodeScanner1.Value & Char(44) & Char(10)
-                ),
+                )),
                 Set(
                     gScanData,
                     gScanData & Char(44) & Char(10) & BarcodeScanner1.Value

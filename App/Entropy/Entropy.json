@@ -66,7 +66,7 @@
     "Title2": 46
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "04/01/2022 20:15:14",
+  "HeaderLastSavedDateTimeUTC": "04/01/2022 20:42:04",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -126,12 +126,12 @@
     "icoMenu_1": 51,
     "Icon_Home": 21,
     "Icon1": 2,
-    "Icon1_1": 37,
+    "Icon1_1": 38,
     "Icon1_2": 7,
     "Icon1_3": 17,
     "Icon2": 18,
-    "iconCheck1": 38,
-    "iconCircle1": 39,
+    "iconCheck1": 39,
+    "iconCircle1": 35,
     "Label_Location": 23,
     "Label_Manufacturer": 30,
     "Label_Manufacturer_1": 25,
@@ -150,7 +150,7 @@
     "rectTopBannerBG": 0,
     "rectTopBannerBG_1": 5,
     "rectTopBannerBG_2": 19,
-    "rectTopBannerBG_3": 35,
+    "rectTopBannerBG_3": 36,
     "rectTopBannerBG_4": 15,
     "Separator1": 14,
     "Subtitle1": 11,
@@ -158,7 +158,7 @@
     "TextInput_SerialNumbers": 26,
     "Title_Add_Asset": 20,
     "Title_Home": 1,
-    "Title_Home_1": 36,
+    "Title_Home_1": 37,
     "Title1": 6,
     "Title1_1": 16,
     "Title2": 10
@@ -168,7 +168,7 @@
   },
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.4950083,
+    "AnalysisLoadTime": 0.467582,
     "ControlCount": {
       "barcodeScanner": 1,
       "button": 5,
@@ -183,7 +183,7 @@
       "screen": 5,
       "text": 1
     },
-    "DeserializationLoadTime": 1.9745991,
+    "DeserializationLoadTime": 1.9534444,
     "ErrorCount": 2
   }
 }

@@ -65,7 +65,7 @@
       "useexperimentalsqlconnector": true,
       "useguiddatatypes": true,
       "usenonblockingonstartrule": true,
-      "webbarcodescanner": true
+      "webbarcodescanner": false
     },
     "Author": "",
     "ContainsThirdPartyPcfControls": false,
