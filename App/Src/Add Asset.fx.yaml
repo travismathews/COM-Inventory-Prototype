@@ -194,7 +194,7 @@
                     Dropdown_Location.Selected.Location,
                     Dropdown_Manufacturer.Selected.Manufacturer,
                     User().Email
-                ),
+                ).success,
                 Navigate('Add Asset Success'),
                 Notify("Failed to add assets...")
             )
