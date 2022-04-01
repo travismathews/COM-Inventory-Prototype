@@ -56,9 +56,9 @@
     HtmlText1 As htmlViewer:
         Height: =Parent.Height-80
         HtmlText: =addAssetsResult.data
-        Size: =18
-        Width: =846
-        X: =520
+        Size: =16
+        Width: =869
+        X: =497
         Y: =60
         ZIndex: =7
 
