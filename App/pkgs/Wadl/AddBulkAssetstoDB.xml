@@ -12,6 +12,13 @@
         <property name="InitManufacturer_Value" type="string" />
         <property name="InitUser_Value" type="string" />
       </object>
+      <string name="ResponseActionOutput_success_def" />
+      <string name="ResponseActionOutput_data_def" />
+      <object name="ResponseActionOutput">
+        <property name="success" type="string" />
+        <property name="data" type="string" />
+      </object>
+      <object name="Run_responses_default_def" />
     </jsonTypes>
   </grammars>
   <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://msmanaged-na.azure-apim.net/apim/logicflows">
@@ -30,6 +37,9 @@
             <param style="plain" name="InitUser_Value" path="/InitUser_Value" type="xs:string" required="true" />
           </representation>
         </request>
+        <response>
+          <representation mediaType="application/json" element="service:ResponseActionOutput" />
+        </response>
       </method>
     </resource>
   </resources>
